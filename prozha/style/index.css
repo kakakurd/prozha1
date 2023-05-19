@@ -1,0 +1,52 @@
+body{
+	background-color:rgb(0,0,0.5,0.226);
+	width:100%;
+	height:100%;
+}    
+
+nav{
+	background-color:goldenrod;
+	height:60px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.link{
+	text-decoration:none;
+	font-size:35px;
+	color:red;
+	margin:10px;
+}
+.link:hover{
+	font-weight:bolder;
+	color:blue;
+}
+.nusin{
+	margin-top:40px;
+	border:3px solid goldenrod;
+	width:30%;
+	height:70%;
+	text-align:right;
+}
+img{
+	width:60%;
+	margin:40px;
+	border-radius:60%;
+	
+}
+#saraky{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:100%;
+	height:100%;
+	flex-wrap:wrap;
+}
+footer{
+	background-color:goldenrod;
+	height:30px;
+	text-align:center;
+	margin:70px;
+	color:snow;
+	font-size:30px;
+}
